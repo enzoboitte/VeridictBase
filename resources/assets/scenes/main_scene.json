@@ -1,0 +1,141 @@
+{
+  "name": "main",
+  "objects": [
+    {
+      "component": null,
+      "name": "Screen",
+      "tag": 0,
+      "type": "obj"
+    },
+    {
+      "component": [
+        {
+          "name": "C_Camera",
+          "param": {
+            "GameObject": null,
+            "camera": {
+              "fovy": 75.0,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "projection": 0,
+              "target": {
+                "x": 100.0,
+                "y": 1.0,
+                "z": 0.0
+              },
+              "up": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "C_Transform",
+          "param": {
+            "GameObject": null,
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        }
+      ],
+      "name": "main",
+      "tag": 0,
+      "type": "cam"
+    },
+    {
+      "component": [
+        {
+          "name": "C_Transform",
+          "param": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        },
+        {
+          "name": "Enemie",
+          "param": {
+            "position": {
+              "x": 100.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 11.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        }
+      ],
+      "name": "cube",
+      "tag": 0,
+      "type": "obj"
+    },
+    {
+      "component": [
+        {
+          "name": "C_Transform",
+          "param": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        },
+        {
+          "name": "Player",
+          "param": {
+            "camera": "main",
+            "scene": ""
+          }
+        }
+      ],
+      "name": "player",
+      "tag": 0,
+      "type": "obj"
+    }
+  ],
+  "projection": "3D"
+}

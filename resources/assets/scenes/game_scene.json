@@ -1,0 +1,21 @@
+{
+  "name": "game",
+  "objects": [
+    {
+      "component": [
+        {
+          "name": "Network",
+          "param": {
+            "GameObject": null,
+            "ip": "192.168.0.1",
+            "port": 24100
+          }
+        }
+      ],
+      "name": "Network",
+      "tag": 0,
+      "type": "obj"
+    }
+  ],
+  "projection": "3D"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Test",
+  "version": "1.0.1",
+  "main_scene": "main",
+  "screen":
+  {
+    "size": { "width": 1200, "height":  720 },
+    "resizable": false,
+    "fullscreen": false
+  }
+}
